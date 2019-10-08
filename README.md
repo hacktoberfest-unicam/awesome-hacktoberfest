@@ -49,10 +49,16 @@ Livelli
   * Creare un algoritmo di sorting partendo da un'interfaccia
   * Implementare un algoritmo di sorting già esistente aggiungendo una notifica di progressione dell'ordinamento in tempo reale
   * Creare il gioco Sasso-carta-forbice-lizard-Spock
+  * Creare il gioco Snake
+  * Creare la Tombola
   
 * Intermedio
   * Creare un'applicazione utile a ridurre la lunghezza di un url
   * Creare un algoritmo di cifratura e relativo algoritmo di decifratura
+    * Cifrario di Cesare
+    * Cifrario di Hill
+    * Cifrario di Vigenere
+    * Cifrario Playfair
   * Creare un algoritmo di hashing
   * Containerizzare un'applicazione utilizzando Docker (creazione del Dockerfile)
 
