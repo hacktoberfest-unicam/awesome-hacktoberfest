@@ -46,17 +46,17 @@ Invece qui di seguito potete trovare utility di sviluppo che riteniamo interessa
 Livelli
 ---
 * Principiante
-  * Progetto 1
-  * Progetto 2
-  * Progetto 3
-
+  * Creare un algoritmo di sorting partendo da un'interfaccia
+  * Implementare un algoritmo di sorting già esistente aggiungendo una notifica di progressione dell'ordinamento in tempo reale
+  * Creare il gioco Sasso-carta-forbice-lizard-Spock
+  
 * Intermedio
-  * Progetto 1
-  * Progetto 2
-  * Progetto 3
+  * Creare un'applicazione utile a ridurre la lunghezza di un url
+  * Creare un algoritmo di cifratura e relativo algoritmo di decifratura
+  * Creare un algoritmo di hashing
+  * Containerizzare un'applicazione utilizzando Docker (creazione del Dockerfile)
 
 * Esperto
-  * Progetto 1
+  * Creare un algoritmo che nasconda un messaggio all'interno di un'immagine o di un file audio (steganografia)
   * Progetto 2
   * Progetto 3
-
