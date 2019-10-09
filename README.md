@@ -58,5 +58,5 @@ Livelli
 
 * Esperto
   * Creare un algoritmo che nasconda un messaggio all'interno di un'immagine o di un file audio (steganografia)
-  * Progetto 2
-  * Progetto 3
+  * Svolgere una delle opzioni precedenti ma utilizzando un linguaggio di programmazione sconosciuto (Learn-by-doing).
+  * Scegliere uno dei tanti progetti di Developers Italia e fornire il proprio contributo
