@@ -49,10 +49,10 @@ Livelli
 * Principiante
   * Creare un algoritmo di sorting partendo da un'interfaccia
   * Implementare un algoritmo di sorting già esistente aggiungendo una notifica di progressione dell'ordinamento in tempo reale
-  * Creare il gioco Sasso-Carta-Forbice
+  * Creare il gioco **Sasso-Carta-Forbice**
   
 * Intermedio
-  * Creare il gioco Sasso-Carta-Forbice-Lizard-Spock
+  * Creare il gioco **Sasso-Carta-Forbice-Lizard-Spock**
   * Creare un'applicazione utile a ridurre la lunghezza di un URL
   * Creare un algoritmo di cifratura e relativo algoritmo di decifratura
   * Creare un algoritmo di hashing
@@ -60,5 +60,5 @@ Livelli
 
 * Esperto
   * Creare un algoritmo che nasconda un messaggio all'interno di un'immagine o di un file audio *(steganografia)*
-  * Svolgere una delle opzioni precedenti ma utilizzando un linguaggio di programmazione sconosciuto *(Learn-by-doing)*.
-  * Scegliere uno dei tanti progetti di Developers Italia e fornire il proprio contributo
+  * Svolgere una delle opzioni precedenti ma utilizzando un linguaggio di programmazione sconosciuto *(Learn-by-doing)*
+  * Scegliere uno dei tanti progetti di **Italia Developers** e fornire il proprio contributo
