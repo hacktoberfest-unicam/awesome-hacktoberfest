@@ -30,6 +30,7 @@ Vi ricordiamo innanzitutto i tools gratuti messi a disposizione dal account univ
    * Il backpack offre inoltre una serie molto ampia di strumenti informatici di ottimo livello
 * MatLab
 * Suite Office
+* Visual Paradigm
 
 Invece qui di seguito potete trovare utility di sviluppo che riteniamo interessanti: 
 
@@ -51,18 +52,20 @@ Livelli
   * Creare il gioco Sasso-carta-forbice-lizard-Spock
   * Creare il gioco Snake
   * Creare la Tombola
+  * Creare il gioco **Sasso-Carta-Forbice**
   
 * Intermedio
-  * Creare un'applicazione utile a ridurre la lunghezza di un url
+  * Creare il gioco **Sasso-Carta-Forbice-Lizard-Spock**
+  * Creare un'applicazione utile a ridurre la lunghezza di un URL
   * Creare un algoritmo di cifratura e relativo algoritmo di decifratura
     * Cifrario di Cesare
     * Cifrario di Hill
     * Cifrario di Vigenere
     * Cifrario Playfair
   * Creare un algoritmo di hashing
-  * Containerizzare un'applicazione utilizzando Docker (creazione del Dockerfile)
+  * Containerizzare un'applicazione utilizzando Docker *(creazione del Dockerfile)*
 
 * Esperto
-  * Creare un algoritmo che nasconda un messaggio all'interno di un'immagine o di un file audio (steganografia)
-  * Progetto 2
-  * Progetto 3
+  * Creare un algoritmo che nasconda un messaggio all'interno di un'immagine o di un file audio *(steganografia)*
+  * Svolgere una delle opzioni precedenti ma utilizzando un linguaggio di programmazione sconosciuto *(Learn-by-doing)*
+  * Scegliere uno dei tanti progetti di **Italia Developers** e fornire il proprio contributo
