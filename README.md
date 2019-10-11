@@ -59,20 +59,31 @@ Livelli
 * Principiante
   * Creare un algoritmo di sorting partendo da un'interfaccia
   * Implementare un algoritmo di sorting già esistente aggiungendo una notifica di progressione dell'ordinamento in tempo reale
+  * Creare il gioco Sasso-carta-forbice-lizard-Spock
+  * Creare il gioco Snake
+  * Creare la Tombola
   * Creare il gioco **Sasso-Carta-Forbice**
   
 * Intermedio
   * Creare il gioco **Sasso-Carta-Forbice-Lizard-Spock**
   * Creare un'applicazione utile a ridurre la lunghezza di un URL
   * Creare un algoritmo di cifratura e relativo algoritmo di decifratura
+    * Cifrario di Cesare
+    * Cifrario di Hill
+    * Cifrario di Vigenere
+    * Cifrario Playfair
   * Creare un algoritmo di hashing
   * Containerizzare un'applicazione utilizzando Docker *(creazione del Dockerfile)*
 
 * Esperto
   * Creare un algoritmo che nasconda un messaggio all'interno di un'immagine o di un file audio *(steganografia)*
   * Svolgere una delle opzioni precedenti ma utilizzando un linguaggio di programmazione sconosciuto *(Learn-by-doing)*
+<<<<<<< HEAD
   * Scegliere uno dei tanti progetti di **Italia Developers** e fornire il proprio contributo
 
 Challenge
 ---
 All'interno di questa repository è possibile trovare inoltre una cartella contente una banale implementazione del classico ``Hello World`` in Python. Provate a popolarla con l'implementazione del medesimo codice ma in altri linguaggi di programmazione!
+=======
+  * Scegliere uno dei tanti progetti di **Italia Developers** e fornire il proprio contributo
+>>>>>>> c1b6907c58bf2476f7edcd34a2b874ee796d53d0
