@@ -42,7 +42,17 @@ Invece qui di seguito potete trovare utility di sviluppo che riteniamo interessa
     * Powerline con varie estensioni
   * Nano
   * EMACS
-* Aggiungere altre cose belline
+* Framework per applicazioni web e mobile
+  * AngularJS
+  * Flutter
+  * React
+  * VueJS
+  * Ionic
+* Tool di modellazione grafica e svillupo 3D
+  * Blender
+  * Unity
+  * Godot
+
 
 Livelli
 ---
@@ -62,3 +72,7 @@ Livelli
   * Creare un algoritmo che nasconda un messaggio all'interno di un'immagine o di un file audio *(steganografia)*
   * Svolgere una delle opzioni precedenti ma utilizzando un linguaggio di programmazione sconosciuto *(Learn-by-doing)*
   * Scegliere uno dei tanti progetti di **Italia Developers** e fornire il proprio contributo
+
+Challenge
+---
+All'interno di questa repository è possibile trovare inoltre una cartella contente una banale implementazione del classico ``Hello World`` in Python. Provate a popolarla con l'implementazione del medesimo codice ma in altri linguaggi di programmazione!
