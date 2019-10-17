@@ -3,14 +3,13 @@
 ;;;;    Installare SBCL
 ;;;;    Eseguire: sbcl --load scf.lisp
 ;;;; In altrenativa usa un interprete online come:
-;;;;   https://www.tutorialspoint.com/execute_lisp_online.php
+;;;;   Funziona solo con il compilatore SBCL
 
 
 ; Dichiarazione variabili
 (defvar UNI) ; Giacatore 1
 (defvar CAM) ; Giocatore 2
 (defvar PUNTI) ; Punteggio
-
 
 (write-line "Iniziare una partita? [Y/N]")
 (unless (equal (read) 'Y) ; Se l'input e' diverso da Y allora esci
@@ -25,9 +24,9 @@
  (setf CAM (read)); Leggi input CAM
 
  ;; Blocco logico
- (unless (equal UNI CAM) ; Se UNI e CAM sono uguali esci,
-; per non far aggiunger punti se i giocatori hanno giocato la stessa mano
-   (if (or
+ ; Se UNI e CAM sono uguali esci, per non far aggiunger punti se i giocatori hanno giocato la stessa mano
+ (unless (equal UNI CAM)
+	 (if (or
 		(and (equal UNI 'S) (equal CAM 'F))
 		(and (equal UNI 'C) (equal CAM 'S))
 		(and (equal UNI 'F) (equal CAM 'C)))
