@@ -1,0 +1,14 @@
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\bin\Debug\Hacktoberfest2019DZ.exe.config
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\bin\Debug\Hacktoberfest2019DZ.exe
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\bin\Debug\Hacktoberfest2019DZ.pdb
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\bin\Debug\MetroFramework.dll
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\bin\Debug\Newtonsoft.Json.dll
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\bin\Debug\Newtonsoft.Json.xml
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\obj\Debug\Hacktoberfest2019DZ.csprojAssemblyReference.cache
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\obj\Debug\Hacktoberfest2019DZ.MainForm.resources
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\obj\Debug\Hacktoberfest2019DZ.Properties.Resources.resources
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\obj\Debug\Hacktoberfest2019DZ.csproj.GenerateResource.cache
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\obj\Debug\Hacktoberfest2019DZ.csproj.CopyComplete
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\obj\Debug\Hacktoberfest2019DZ.exe
+C:\Users\swegger\source\repos\Hacktoberfest2019DZ\Hacktoberfest2019DZ\obj\Debug\Hacktoberfest2019DZ.pdb
