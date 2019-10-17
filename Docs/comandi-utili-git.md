@@ -1,7 +1,7 @@
-#Comandi utili
+# Comandi utili
 
 
-##Creare repository locale**
+## Creare repository locale**
 
 - Creare cartella dove inizializzeremo il progetto
 - Navigare al suo interno da terminale
@@ -9,7 +9,7 @@
 - Iniziare a creare file
 
 
-##Fare una pull request**
+## Fare una pull request**
 - Navigare nella pagina del progetto di interesse.
 - Premere su fork
 - Navigare nel repository del progetto ora presente nel proprio profilo
