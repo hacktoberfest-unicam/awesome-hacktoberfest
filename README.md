@@ -22,7 +22,7 @@ Introduzione
 
 Di seguito, *e all'interno della repository più generalmente*, sarà possibile trovare materiale utile al proseguimento dell'evento e soprattutto collegamenti a progetti che abbiamo selezionato basandoci su diversi livelli di difficoltà.
 
-Materiali e softwares 
+Materiali e softwares
 ---
 Vi ricordiamo innanzitutto i tools gratuti messi a disposizione dal account univerisitario che possedete.
 
@@ -31,7 +31,7 @@ Vi ricordiamo innanzitutto i tools gratuti messi a disposizione dal account univ
 * Suite Microsoft Office
 * Visual Paradigm
 
-Invece qui di seguito potete trovare utility di sviluppo che riteniamo interessanti: 
+Invece qui di seguito potete trovare utility di sviluppo che riteniamo interessanti:
 
 * IDE ed editor di testo
   * Visual Studio Code
@@ -61,7 +61,7 @@ Livelli
   * Creare il gioco Snake
   * Creare la Tombola
   * Creare il gioco **Sasso-Carta-Forbice**
-  
+
 * Intermedio
   * Creare il gioco **Sasso-Carta-Forbice-Lizard-Spock**
   * Creare un'applicazione utile a ridurre la lunghezza di un URL
@@ -81,3 +81,5 @@ Livelli
 Challenge
 ---
 All'interno di questa repository è possibile trovare inoltre una cartella contente una banale implementazione del classico ``Hello World`` in Python. Provate a popolarla con l'implementazione del medesimo codice ma in altri linguaggi di programmazione!
+
+Buona Challenge da Unicam!
