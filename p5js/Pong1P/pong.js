@@ -11,15 +11,16 @@ BALL_SPEED = 5;
 //paddle
 PADDLE_WIDTH = 10;
 PADDLE_HEIGHT = 50;
-PADDLE_SPEED = 10;
 
 //player
 PLAYER_X = 5;
 PLAYER_Y = (SCREEN_HEIGHT / 2) - (PADDLE_HEIGHT / 2);
+PLAYER_SPEED = 10;
 
 //cpu
-CUP_X = SCREEN_WIDTH - 15;
-CUP_Y = (SCREEN_HEIGHT / 2) - (PADDLE_HEIGHT / 2);
+CPU_X = SCREEN_WIDTH - 15;
+CPU_Y = (SCREEN_HEIGHT / 2) - (PADDLE_HEIGHT / 2);
+CPU_SPEED = 5;
 
 
 //ball class
@@ -34,7 +35,7 @@ class Ball{
     }
 
     display(){
-        fill(255, 255, 255);
+        fill(0, 255, 0);
 	    noStroke();
         ellipse(this.x, this.y, this.diameter, this.diameter);
     }
@@ -55,21 +56,36 @@ class Paddle{
     }
 
     display(){
-        fill(255, 255, 255);
+        if(this.isCPU){
+            fill(255, 0, 0);
+        }
+        else{
+            fill(0, 0, 255);
+        }
         noStroke();
         rect(this.x, this.y, this.width, this.height);
     }
 
-    move(){
+    //cpu requires ball for tracking its position
+    move(ball){
         if(!this.isCPU){
             if(keyIsDown(UP_ARROW)){
                 if(player.y > 0){
-                    player.y -= PADDLE_SPEED;
+                    player.y -= PLAYER_SPEED;
                 }
             }
             if(keyIsDown(DOWN_ARROW)){
-                if(player.y < SCREEN_HEIGHT - PADDLE_HEIGHT)
-                player.y += 10;
+                if(player.y < SCREEN_HEIGHT - PADDLE_HEIGHT){
+                    player.y += PLAYER_SPEED;
+                }
+            }
+        }
+        else{
+            if((this.y + (this.width / 2)) < ball.y){
+                this.y += CPU_SPEED;
+            }
+            if(this.y + (this.width / 2) > ball.y){
+                this.y -= CPU_SPEED;
             }
         }
     }
@@ -84,24 +100,61 @@ let cpu;
 //canvas setup
 function setup(){
     createCanvas(SCREEN_WIDTH,SCREEN_HEIGHT);
-    ball = new Ball(1, 0);
+    ball = new Ball(5, 5);
     player = new Paddle(PLAYER_X, PLAYER_Y, false);
-    cpu = new Paddle(CUP_X, CUP_Y, true)
+    cpu = new Paddle(CPU_X, CPU_Y, true)
 }
 
 //draw function
 function draw(){
+    //setup background
     background(0);
+
+    //display elements
     ball.display();
     player.display();
     cpu.display();
+
+    //setup movement for elements
     ball.move();
     player.move();
-    cpu.move();
+    cpu.move(ball);
+
+
+    checkCollision();
 }
 
 function checkCollision(){
-    if(ball.x >= SCREEN_WIDTH - (BALL_SIZE / 2)){
-        
+    //cpu
+    if(ball.x >= (SCREEN_WIDTH - cpu.width - (BALL_SIZE / 2))){
+        //cpu collision
+        if(ball.y >= cpu.y && ball.y <= cpu.y + cpu.height){
+            ball.delta_x = -ball.delta_x;
+        }
+        //player wins
+        else{
+            noLoop();
+            fill(0, 0, 255);
+            textSize(24);
+	        text("Player won!", (SCREEN_WIDTH / 2) - 50, SCREEN_HEIGHT / 2);
+        }
+    }
+    //player 
+    if(ball.x <= (player.width + (BALL_SIZE / 2))){
+        //player collision
+        if (ball.y >= player.y && ball.y <= player.y + player.height){
+            ball.delta_x = -ball.delta_x;
+        }
+        //cpu wins
+        else{
+            noLoop();
+            fill(255, 0, 0);
+            textSize(24);
+	        text("CPU won!", (SCREEN_WIDTH / 2) - 50, SCREEN_HEIGHT / 2);
+        }
+    } 
+    //screen boundaries
+    if(ball.y <= (BALL_SIZE / 2) || ball.y >= SCREEN_HEIGHT - (BALL_SIZE / 2)){
+        ball.delta_y = -ball.delta_y;
     }
 }
