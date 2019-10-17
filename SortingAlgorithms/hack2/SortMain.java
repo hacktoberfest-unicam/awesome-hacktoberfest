@@ -3,8 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 /**
- * Classe Main dello StupidSort
- * @author corrado
+ * Classe Main delSort
+ * @authors Campanelli Compagnucci e Cataluffi
  *
  */
 public class SortMain {
@@ -14,10 +14,10 @@ public class SortMain {
 		List<Integer> input = new ArrayList<Integer>();
 		
 		
-		int dim = richiedi("Inserisci dim array: ");
+		int dim = richiedi("Inserisci dimensione array da ordinare: ");
 
 		for (int i = 0; i < dim; i++) {
-			input.add(richiedi("Inserisci num: "));
+			input.add(richiedi("Inserisci numero: "));
 		}
 		
 		int[] solution = example.sort(input.stream().mapToInt(i->i).toArray());

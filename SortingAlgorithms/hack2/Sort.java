@@ -1,7 +1,7 @@
 import java.io.*;
 /**
- * Implementazione dello Stupid Sort
- * @author
+ * Implementazione del Sort
+ * @authors Campanelli Compagnucci e Cataluffi
  *
  */
 public class Sort implements ISort {
@@ -14,7 +14,7 @@ public class Sort implements ISort {
 			bubbleSort(input);
 
 		}
-		System.out.println("Soluzione trovata! in "+ contatore+ " volte");
+		System.out.println("Soluzione trovata in "+ contatore+ " volte");
 		return input;
 	}
 

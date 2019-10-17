@@ -1,7 +1,7 @@
 import java.io.*;
 /**
- * Interfaccia da implementare per l'ordinamento
- * @author corrado
+ * Interfaccia per l'ordinamento
+ * @authors Campanelli Compagnucci e Cataluffi
  *
  */
 public interface ISort {
