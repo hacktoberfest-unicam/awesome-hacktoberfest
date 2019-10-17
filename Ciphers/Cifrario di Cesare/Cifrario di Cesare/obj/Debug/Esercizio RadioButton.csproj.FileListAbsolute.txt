@@ -1,0 +1,19 @@
+H:\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\bin\Debug\Esercizio RadioButton.exe.config
+H:\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\bin\Debug\Esercizio RadioButton.exe
+H:\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\bin\Debug\Esercizio RadioButton.pdb
+H:\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio RadioButton.csprojResolveAssemblyReference.cache
+H:\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio_RadioButton.Form1.resources
+H:\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio_RadioButton.Properties.Resources.resources
+H:\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio RadioButton.csproj.GenerateResource.Cache
+H:\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio RadioButton.exe
+H:\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio RadioButton.pdb
+H:\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio RadioButton.csproj.CoreCompileInputs.cache
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\bin\Debug\Esercizio RadioButton.exe.config
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\bin\Debug\Esercizio RadioButton.exe
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\bin\Debug\Esercizio RadioButton.pdb
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio RadioButton.csprojAssemblyReference.cache
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio_RadioButton.Form1.resources
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio_RadioButton.Properties.Resources.resources
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio RadioButton.csproj.GenerateResource.cache
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio RadioButton.exe
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Esercizio RadioButton\Esercizio RadioButton\obj\Debug\Esercizio RadioButton.pdb
