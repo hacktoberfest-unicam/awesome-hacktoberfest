@@ -1,8 +1,6 @@
 
 public class Partita {
-	private int punteggioGiocatore = 0;
-	private int punteggioCPU = 0;
-
+	
 	public void Start(Giocatore giocatoreUmano, Giocatore CPU) {
 		controlloTurno(giocatoreUmano.chiediMossa(), CPU.mossa());
 	}
@@ -34,7 +32,7 @@ public class Partita {
 				perdita();
 				break;
 			}
-		// Se il giocatore ha scelto Foribici
+		// Se il giocatore ha scelto Forbici
 		if (g1.equals("F"))
 			switch (g2) {
 			case "Sasso":
