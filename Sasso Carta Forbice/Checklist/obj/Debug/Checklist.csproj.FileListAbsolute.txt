@@ -1,0 +1,29 @@
+H:\anno scolastico 2017,2018\informatica\cishup\Checklist\Checklist\bin\Debug\Checklist.exe.config
+H:\anno scolastico 2017,2018\informatica\cishup\Checklist\Checklist\bin\Debug\Checklist.exe
+H:\anno scolastico 2017,2018\informatica\cishup\Checklist\Checklist\bin\Debug\Checklist.pdb
+H:\anno scolastico 2017,2018\informatica\cishup\Checklist\Checklist\obj\Debug\Checklist.csprojResolveAssemblyReference.cache
+H:\anno scolastico 2017,2018\informatica\cishup\Checklist\Checklist\obj\Debug\Checklist.Form1.resources
+H:\anno scolastico 2017,2018\informatica\cishup\Checklist\Checklist\obj\Debug\Checklist.Properties.Resources.resources
+H:\anno scolastico 2017,2018\informatica\cishup\Checklist\Checklist\obj\Debug\Checklist.csproj.GenerateResource.Cache
+H:\anno scolastico 2017,2018\informatica\cishup\Checklist\Checklist\obj\Debug\Checklist.csproj.CoreCompileInputs.cache
+H:\anno scolastico 2017,2018\informatica\cishup\Checklist\Checklist\obj\Debug\Checklist.exe
+H:\anno scolastico 2017,2018\informatica\cishup\Checklist\Checklist\obj\Debug\Checklist.pdb
+H:\Anno scolastico 2017-2018\Informatica\C#\Checklist\Checklist\bin\Debug\Checklist.exe.config
+H:\Anno scolastico 2017-2018\Informatica\C#\Checklist\Checklist\bin\Debug\Checklist.exe
+H:\Anno scolastico 2017-2018\Informatica\C#\Checklist\Checklist\bin\Debug\Checklist.pdb
+H:\Anno scolastico 2017-2018\Informatica\C#\Checklist\Checklist\obj\Debug\Checklist.csprojResolveAssemblyReference.cache
+H:\Anno scolastico 2017-2018\Informatica\C#\Checklist\Checklist\obj\Debug\Checklist.Form1.resources
+H:\Anno scolastico 2017-2018\Informatica\C#\Checklist\Checklist\obj\Debug\Checklist.Properties.Resources.resources
+H:\Anno scolastico 2017-2018\Informatica\C#\Checklist\Checklist\obj\Debug\Checklist.csproj.GenerateResource.Cache
+H:\Anno scolastico 2017-2018\Informatica\C#\Checklist\Checklist\obj\Debug\Checklist.csproj.CoreCompileInputs.cache
+H:\Anno scolastico 2017-2018\Informatica\C#\Checklist\Checklist\obj\Debug\Checklist.exe
+H:\Anno scolastico 2017-2018\Informatica\C#\Checklist\Checklist\obj\Debug\Checklist.pdb
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Checklist - Copia\Checklist\bin\Debug\Checklist.exe.config
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Checklist - Copia\Checklist\bin\Debug\Checklist.exe
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Checklist - Copia\Checklist\bin\Debug\Checklist.pdb
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Checklist - Copia\Checklist\obj\Debug\Checklist.csprojAssemblyReference.cache
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Checklist - Copia\Checklist\obj\Debug\Checklist.Form1.resources
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Checklist - Copia\Checklist\obj\Debug\Checklist.Properties.Resources.resources
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Checklist - Copia\Checklist\obj\Debug\Checklist.csproj.GenerateResource.cache
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Checklist - Copia\Checklist\obj\Debug\Checklist.exe
+C:\Users\marco\Desktop\Università\Scuola\Anno scolastico 2017-2018\Informatica\C#\Checklist - Copia\Checklist\obj\Debug\Checklist.pdb
