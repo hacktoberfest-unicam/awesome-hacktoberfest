@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Rock Paper Scissors Online</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+        }
+        #username,#play {
+            height:50px;
+        }
+        .content{
+            margin:auto;
+            text-align:center;
+        }
+        .title {
+            font-size:55px;
+        }
+        .waiting {
+            display:none;
+        }
+        .playing {
+            display:none;
+        }
+        .end {
+            display:none;
+        }
+        .selectWaiting {
+            display:none;
+        }
+    </style>
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+              crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script>
+        const socket = io('http://10.0.6.235:8080');
+        $(document).ready(()=>{
+            $("#play").click(()=>{
+                let usernameTrimmed = $("#username").val().trim();
+                if(usernameTrimmed) {
+                    socket.emit('join',usernameTrimmed);
+                }
+            });
+            $(".rock").click(()=>{
+                socket.emit('play', 0);
+                $(".selectFigure").css("display", "none");
+                $(".selectWaiting").css("display", "block");
+            });
+            $(".paper").click(()=>{
+                socket.emit('play', 1);
+                $(".selectFigure").css("display", "none");
+                $(".selectWaiting").css("display", "block");
+            });
+            $(".scissors").click(()=>{
+                socket.emit('play', 2);
+                $(".selectFigure").css("display", "none");
+                $(".selectWaiting").css("display", "block");
+            });
+        });
+
+        socket.on('waiting',
+            function(data) {
+                $('.joining').css("display", "none");
+                $('.waiting').css("display", "block");
+            }
+        );
+        
+        socket.on('found',
+            function(data) {
+                $('.waiting').css("display", "none");
+                $('.joining').css("display", "none");
+                $('.playing').css("display", "block");
+                $('.player').text(data);
+            }
+        );
+        
+        socket.on('win',
+            function(data) {
+                $('.playing').css("display", "none");
+                $('.end').css("display", "block");
+                $('.status').text("Win");
+            }
+        );
+        
+        socket.on('lose',
+            function(data) {
+                $('.playing').css("display", "none");
+                $('.end').css("display", "block");
+                $('.status').text("Lose");
+            }
+        );
+        
+        socket.on('tie',
+            function(data) {
+                $('.playing').css("display", "none");
+                $('.end').css("display", "block");
+                $('.status').text("Tie");
+            }
+        );
+    </script>
+</head>
+
+  <body>
+        <div class="content joining">
+                <h1 class="title">RPSO</h1>
+                <div class="form-inline">
+                        <div class="form-group mx-sm-3 mb-2">
+                        <label for="urlshrt" class="sr-only">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Username">
+                        </div>
+                        <button type="submit" id="play" class="btn btn-primary mb-2 play">Play</button>
+                </div>
+        </div>
+        <div class="content waiting">
+                <h1 class="title">Waiting</h1>
+        </div>
+        <div class="content playing">
+                <h3 class="title">Playing VS <span class="player"></span></h1>
+                <div class="selectFigure">
+                    <button type="button" class="btn btn-primary btn-lg rock">Rock</button>
+                    <button type="button" class="btn btn-primary btn-lg paper">Paper</button>
+                    <button type="button" class="btn btn-primary btn-lg scissors">Scissors</button>
+                </div>
+                <h3 class="selectWaiting">Waiting the other player...</h3>
+        </div>
+        <div class="content end">
+                <h3 class="title">It's a <span class="status"></span>!</h1>
+        </div>
+  </body>
+</html>
