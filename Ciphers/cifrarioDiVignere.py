@@ -29,7 +29,7 @@ def cifrario(one,two):
 
 def letterToNumber(fx):
    a = fx +96
-   print(chr(a))
+   print(chr(a).upper())
 
 
 
