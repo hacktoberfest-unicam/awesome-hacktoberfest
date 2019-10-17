@@ -13,10 +13,17 @@ class Snake{
         this.hue = 0;
         this.delta_x = 0;
         this.delta_y = 0;
+        this.color = 0;
     }
 
     display(){
-        fill(255,0,0);
+        if(this.color < 360){
+            this.color += 1;
+        }
+        else{
+            this.color = 0;
+        }
+        fill(this.color, 255, 255);  
         noStroke();
         ellipse(this.x, this.y, this.size, this.size);
     }
@@ -47,6 +54,7 @@ let snake;
 
 function setup(){
     createCanvas(SCREEN_WIDTH, SCREEN_HEIGHT);
+    colorMode(HSB, 255);
     snake = new Snake();
 }
 
