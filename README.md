@@ -64,6 +64,7 @@ Livelli
 
 * Intermedio
   * Creare il gioco **Sasso-Carta-Forbice-Lizard-Spock**
+  * Creare il gioco **Sasso-carta-Forbice-Caze-Gattafò**
   * Creare un'applicazione utile a ridurre la lunghezza di un URL
   * Creare un **algoritmo di cifratura e relativo algoritmo di decifratura**
     * Cifrario di Cesare
