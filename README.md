@@ -28,7 +28,6 @@ Vi ricordiamo innanzitutto i tools gratuti messi a disposizione dal account univ
 
 * GitHub Pro
    * Il backpack offre inoltre una serie molto ampia di strumenti informatici di ottimo livello
-* MatLab
 * Suite Office
 * Visual Paradigm
 
