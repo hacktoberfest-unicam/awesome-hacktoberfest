@@ -28,7 +28,7 @@ Vi ricordiamo innanzitutto i tools gratuti messi a disposizione dal account univ
 
 * GitHub Pro
    * Il backpack offre inoltre una serie molto ampia di strumenti informatici di ottimo livello
-* Suite Office
+* Suite Microsoft Office
 * Visual Paradigm
 
 Invece qui di seguito potete trovare utility di sviluppo che riteniamo interessanti: 
