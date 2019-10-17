@@ -4,7 +4,7 @@ public class Ciphers {
 	public static final String ALFABETO = "abcdefghijklmnopqrstuvwxyz";
 
 	public static String cifratore(String testo, int cambioCarattere) {
-
+ 
 		testo = testo.toLowerCase();
 		String testoCifrato = "";
 		for (int i = 0; i < testo.length(); i++) {
