@@ -59,7 +59,6 @@ Livelli
 * Principiante
   * Creare un algoritmo di sorting partendo da un'interfaccia
   * Implementare un algoritmo di sorting già esistente aggiungendo una notifica di progressione dell'ordinamento in tempo reale
-  * Creare il gioco Sasso-carta-forbice-lizard-Spock
   * Creare il gioco Snake
   * Creare la Tombola
   * Creare il gioco **Sasso-Carta-Forbice**
@@ -67,7 +66,7 @@ Livelli
 * Intermedio
   * Creare il gioco **Sasso-Carta-Forbice-Lizard-Spock**
   * Creare un'applicazione utile a ridurre la lunghezza di un URL
-  * Creare un algoritmo di cifratura e relativo algoritmo di decifratura
+  * Creare un **algoritmo di cifratura e relativo algoritmo di decifratura**
     * Cifrario di Cesare
     * Cifrario di Hill
     * Cifrario di Vigenere
