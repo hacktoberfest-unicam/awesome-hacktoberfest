@@ -23,15 +23,23 @@ class Snake{
 
     move(){
         if(keyIsDown(UP_ARROW)){
+            this.delta_y = -SNAKE_SPEED;
+            this.delta_x = 0;
         }
         if(keyIsDown(DOWN_ARROW)){
+            this.delta_y = SNAKE_SPEED;
+            this.delta_x = 0;
         }
-        if(keyIsDown(DOWN_ARROW)){
+        if(keyIsDown(LEFT_ARROW)){
+            this.delta_x = -SNAKE_SPEED;
+            this.delta_y = 0;
         }
-        if(keyIsDown(DOWN_ARROW)){
+        if(keyIsDown(RIGHT_ARROW)){
+            this.delta_x = SNAKE_SPEED;
+            this.delta_y = 0;
         }
         this.x += this.delta_x;
-        this.y = this.delta_y;
+        this.y += this.delta_y;
     }
 }
 
@@ -43,7 +51,8 @@ function setup(){
 }
 
 function draw(){
-    background(200,200,200);
+    noFill();
+    rect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     snake.display();
     snake.move();
 }
