@@ -1,0 +1,14 @@
+C:\Users\marcos\source\repos\Steganografia\Steganografia\bin\Debug\Steganografia.exe.config
+C:\Users\marcos\source\repos\Steganografia\Steganografia\bin\Debug\Steganografia.exe
+C:\Users\marcos\source\repos\Steganografia\Steganografia\bin\Debug\Steganografia.pdb
+C:\Users\marcos\source\repos\Steganografia\Steganografia\bin\Debug\Interop.WMPLib.dll
+C:\Users\marcos\source\repos\Steganografia\Steganografia\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\marcos\source\repos\Steganografia\Steganografia\obj\Debug\Steganografia.csprojAssemblyReference.cache
+C:\Users\marcos\source\repos\Steganografia\Steganografia\obj\Debug\Interop.WMPLib.dll
+C:\Users\marcos\source\repos\Steganografia\Steganografia\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\marcos\source\repos\Steganografia\Steganografia\obj\Debug\Steganografia.csproj.ResolveComReference.cache
+C:\Users\marcos\source\repos\Steganografia\Steganografia\obj\Debug\Steganografia.Form1.resources
+C:\Users\marcos\source\repos\Steganografia\Steganografia\obj\Debug\Steganografia.Properties.Resources.resources
+C:\Users\marcos\source\repos\Steganografia\Steganografia\obj\Debug\Steganografia.csproj.GenerateResource.cache
+C:\Users\marcos\source\repos\Steganografia\Steganografia\obj\Debug\Steganografia.exe
+C:\Users\marcos\source\repos\Steganografia\Steganografia\obj\Debug\Steganografia.pdb

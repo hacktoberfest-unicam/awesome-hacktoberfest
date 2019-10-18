@@ -1,0 +1,65 @@
+<html>
+  <head>
+      <title>Carta Forbici Sasso</title>
+  </head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<body>
+  <div class="container">
+    <h1>CARTA FORBICI SASSO</h1>
+
+    <section class="jumbotron text-center">
+
+      <div id="images">
+        <h3>Scegli per giocare:</h3>
+        <img style="cursor: pointer; width:10%;" src="sasso.jpg" onclick="gioca(0)">
+        <img style="cursor: pointer; width:10%;" src="carta.jpg" onclick="gioca(1)">
+        <img style="cursor: pointer; width:10%;" src="forbici.jpg" onclick="gioca(2)">
+      </div>
+
+      <h2 id="sceltaPC"></h2>
+      <h2 id="result"></h2>
+
+      <form id="rigioca" action="cartaforbicisasso.html" style="display:none;">
+        <input class="btn btn-success" type="submit" value="RIGIOCA" />
+      </form>
+
+    </section>
+
+</div>
+    <script>
+        //document.getElementById("butttonToPlay").onclick = gioca();
+
+        function getRandomArbitrary(min, max) {
+            return Math.random() * (max - min) + min;
+        }
+
+        function gioca(n){
+           document.getElementById("images").style.display="none";
+          //var sceltaGiocatore = document.getElementById('scelta');
+        //  document.write("<p>Scelta:" + " " + sceltaGiocatore.value + "</p>");
+          var rnd = getRandomArbitrary(0, 3);
+          rnd=parseInt(rnd);
+          var sceltaPC;
+
+          if(rnd==0) sceltaPC="Sasso";
+          else if(rnd==1) sceltaPC="Carta";
+          else sceltaPC="Forbici";
+
+          document.getElementById("sceltaPC").innerHTML = "Scelta avversario: "+sceltaPC;
+          //document.write("<p>Scelta della CPU:" + " " + sceltaPC + "</p>");
+
+          // sasso=0 carta=1 forbici=2
+          if(rnd==n)  document.getElementById("result").innerHTML = "Partità!!";
+          else{
+            var risultato = (n-rnd)%3;
+            if(risultato==1) document.getElementById("result").innerHTML = "Hai Vinto!!";
+            else document.getElementById("result").innerHTML = "Hai Perso!!";
+          }
+          document.getElementById("rigioca").style.display="block";
+        }
+    </script>
+
+</div>
+
+</body>
+</html>
